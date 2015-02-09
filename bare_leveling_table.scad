@@ -1,5 +1,5 @@
 //Variables
-size = 300;		//Table Size
+size = 500;		//Table Size
 levelHoleRadius = 1.5; //3mm / M3
 coverHoleRadius = 1.5; //3mm / M3
 coverHoleExtensionFactor = 2;
@@ -31,8 +31,8 @@ module cover() {
 
 //Render
 linear_extrude(height=5)base();
-translate([0,0,20])linear_extrude(height=5)top()
-!translate([0,0,40])linear_extrude(height=5)cover();
+translate([0,0,20])linear_extrude(height=5)top();
+translate([0,0,40])linear_extrude(height=5)cover();
 
 //Helper Modules
 module level_holes(radius) {
