@@ -40,7 +40,7 @@ module dust_cover() {
 
 //Render
 linear_extrude(height=5)ground();
-translate([0,0,20])linear_extrude(height=5)middle()
+translate([0,0,20])linear_extrude(height=5)middle();
 translate([0,0,40])linear_extrude(height=5)top();
 translate([0,0,60])linear_extrude(height=5)dust_cover();
 
